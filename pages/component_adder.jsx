@@ -5,7 +5,7 @@ import CarFeatures from "../components/CarFeatures";
 
 function component_adder() {
   return (
-    <div>
+    <div className="container">
       <CarDetails />
       <CarFeatures />
       <CarAskingPrice />
