@@ -1,12 +1,14 @@
-import React from 'react'
-import CarDetails from '../components/carDetails'
+import React from "react";
+import CarDetails from "../components/carDetails";
+import CarFeatures from "../components/CarFeatures";
 
 function component_adder() {
   return (
     <div>
-        <CarDetails/>
+      <CarDetails />
+      <CarFeatures />
     </div>
-  )
+  );
 }
 
-export default component_adder
+export default component_adder;
