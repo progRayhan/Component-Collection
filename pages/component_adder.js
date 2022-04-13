@@ -1,7 +1,8 @@
 import React from "react";
-import CarDetails from "../components/CarDetails";
-import CarFeatures from "../components/CarFeatures"
-import CarAskingPrice from "../components/CarAskingPrice"
+import CarAskingPrice from "../components/carAskingPrice";
+import CarDetails from "../components/carDetails";
+import CarFeatures from "../components/CarFeatures";
+
 
 function component_adder() {
   return (
