@@ -5,7 +5,7 @@ import { MdAirlineSeatReclineNormal } from "react-icons/md";
 import { RiGasStationFill } from "react-icons/ri";
 import { VscColorMode } from "react-icons/vsc";
 
-function carDetails() {
+function CarDetails() {
   return (
     <div className="mt-7 mb-10 p-8 border rounded-md">
       <h2 className="text-xl ... mb-4 font-bold">Car Details</h2>
@@ -249,4 +249,4 @@ function carDetails() {
   );
 }
 
-export default carDetails;
+export default CarDetails;
