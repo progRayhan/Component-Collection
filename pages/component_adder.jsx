@@ -1,14 +1,14 @@
 import React from "react";
-import CarDetails from "../components/carDetails";
-import CarFeatures from "../components/CarFeatures";
 import CarAskingPrice from "../components/carAskingPice";
+import CarDetails from "../components/carDetails";
+import CarFeatures from "../components/carAskingPrice";
 
 function component_adder() {
   return (
     <div>
       <CarDetails />
       <CarFeatures />
-    <CarAskingPrice/>
+      <CarAskingPrice />
     </div>
   );
 }
